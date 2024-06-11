@@ -14,13 +14,12 @@
 		FC9D511F2C17C8770074C7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9D511E2C17C8770074C7C9 /* Assets.xcassets */; };
 		FC9D51222C17C8770074C7C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FC9D51212C17C8770074C7C9 /* Base */; };
 		FC9D51402C17D7A60074C7C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9D513F2C17D7A60074C7C9 /* DetailViewController.swift */; };
+		FCBE7CFA2C18C4B000483C9C /* avengers_capitao-america.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCBE7CF92C18C4B000483C9C /* avengers_capitao-america.jpeg */; };
 		FCDD0F8A2C17F088006535E5 /* avengers_ironman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F812C17F088006535E5 /* avengers_ironman.jpeg */; };
-		FCDD0F8B2C17F088006535E5 /* avengers_cap-america.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F822C17F088006535E5 /* avengers_cap-america.jpeg */; };
 		FCDD0F8C2C17F088006535E5 /* avengers_loki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F832C17F088006535E5 /* avengers_loki.jpeg */; };
 		FCDD0F8D2C17F088006535E5 /* avengers_hulk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F842C17F088006535E5 /* avengers_hulk.jpeg */; };
 		FCDD0F8E2C17F088006535E5 /* avengers_ultron.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F852C17F088006535E5 /* avengers_ultron.jpeg */; };
 		FCDD0F8F2C17F088006535E5 /* avengers_thanos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F862C17F088006535E5 /* avengers_thanos.jpeg */; };
-		FCDD0F902C17F088006535E5 /* avengers_iron-spider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F872C17F088006535E5 /* avengers_iron-spider.jpg */; };
 		FCDD0F912C17F088006535E5 /* avengers_hawkeye.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F882C17F088006535E5 /* avengers_hawkeye.jpeg */; };
 		FCDD0F922C17F088006535E5 /* avengers_black-widow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCDD0F892C17F088006535E5 /* avengers_black-widow.jpeg */; };
 /* End PBXBuildFile section */
@@ -35,13 +34,12 @@
 		FC9D51212C17C8770074C7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC9D51232C17C8770074C7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9D513F2C17D7A60074C7C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FCBE7CF92C18C4B000483C9C /* avengers_capitao-america.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "avengers_capitao-america.jpeg"; path = "../avengers_capitao-america.jpeg"; sourceTree = "<group>"; };
 		FCDD0F812C17F088006535E5 /* avengers_ironman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_ironman.jpeg; sourceTree = "<group>"; };
-		FCDD0F822C17F088006535E5 /* avengers_cap-america.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengers_cap-america.jpeg"; sourceTree = "<group>"; };
 		FCDD0F832C17F088006535E5 /* avengers_loki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_loki.jpeg; sourceTree = "<group>"; };
 		FCDD0F842C17F088006535E5 /* avengers_hulk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_hulk.jpeg; sourceTree = "<group>"; };
 		FCDD0F852C17F088006535E5 /* avengers_ultron.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_ultron.jpeg; sourceTree = "<group>"; };
 		FCDD0F862C17F088006535E5 /* avengers_thanos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_thanos.jpeg; sourceTree = "<group>"; };
-		FCDD0F872C17F088006535E5 /* avengers_iron-spider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengers_iron-spider.jpg"; sourceTree = "<group>"; };
 		FCDD0F882C17F088006535E5 /* avengers_hawkeye.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_hawkeye.jpeg; sourceTree = "<group>"; };
 		FCDD0F892C17F088006535E5 /* avengers_black-widow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengers_black-widow.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,10 +80,9 @@
 				FC9D513F2C17D7A60074C7C9 /* DetailViewController.swift */,
 				FC9D511B2C17C8750074C7C9 /* Main.storyboard */,
 				FCDD0F892C17F088006535E5 /* avengers_black-widow.jpeg */,
-				FCDD0F822C17F088006535E5 /* avengers_cap-america.jpeg */,
+				FCBE7CF92C18C4B000483C9C /* avengers_capitao-america.jpeg */,
 				FCDD0F882C17F088006535E5 /* avengers_hawkeye.jpeg */,
 				FCDD0F842C17F088006535E5 /* avengers_hulk.jpeg */,
-				FCDD0F872C17F088006535E5 /* avengers_iron-spider.jpg */,
 				FCDD0F812C17F088006535E5 /* avengers_ironman.jpeg */,
 				FCDD0F832C17F088006535E5 /* avengers_loki.jpeg */,
 				FCDD0F862C17F088006535E5 /* avengers_thanos.jpeg */,
@@ -157,9 +154,7 @@
 			files = (
 				FCDD0F8D2C17F088006535E5 /* avengers_hulk.jpeg in Resources */,
 				FCDD0F912C17F088006535E5 /* avengers_hawkeye.jpeg in Resources */,
-				FCDD0F902C17F088006535E5 /* avengers_iron-spider.jpg in Resources */,
 				FC9D511F2C17C8770074C7C9 /* Assets.xcassets in Resources */,
-				FCDD0F8B2C17F088006535E5 /* avengers_cap-america.jpeg in Resources */,
 				FC9D51222C17C8770074C7C9 /* Base in Resources */,
 				FC9D511D2C17C8750074C7C9 /* Base in Resources */,
 				FCDD0F922C17F088006535E5 /* avengers_black-widow.jpeg in Resources */,
@@ -167,6 +162,7 @@
 				FCDD0F8E2C17F088006535E5 /* avengers_ultron.jpeg in Resources */,
 				FCDD0F8C2C17F088006535E5 /* avengers_loki.jpeg in Resources */,
 				FCDD0F8F2C17F088006535E5 /* avengers_thanos.jpeg in Resources */,
+				FCBE7CFA2C18C4B000483C9C /* avengers_capitao-america.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  Project1
 //
-//  Created by Matheus  Torres on 10/06/24.
+//  Created by Matheus Torres on 10/06/24.
 //
 
 import UIKit
@@ -12,41 +12,40 @@ class DetailViewController: UIViewController {
     
     var selectedImage: String?
     
-    
     override func viewDidLoad() {
-        //Não deixa os titulos ficarem grandes
+        super.viewDidLoad()
+
+        // Não deixa os títulos ficarem grandes
         navigationItem.largeTitleDisplayMode = .never
 
-        title = selectedImage
-        super.viewDidLoad()
         if let imageToLoad = selectedImage {
-            imageView.image  = UIImage(named: imageToLoad)
+            // Formata o nome do arquivo
+            let heroName = formatFileName(imageToLoad)
+            
+            // Define o título formatado
+            title = heroName
+
+            // Carrega a imagem
+            imageView.image = UIImage(named: imageToLoad)
         }
     }
     
+    func formatFileName(_ fileName: String) -> String {
+        var formattedName = fileName.replacingOccurrences(of: "avengers_", with: "")
+        formattedName = formattedName.replacingOccurrences(of: "-", with: " ")
+        formattedName = formattedName.capitalized
+        return formattedName
+    }
+
     override func viewWillAppear(_ animated: Bool) {
-        //Diga ao meu tipo de dados pai que esses métodos foram chamados
         super.viewWillAppear(animated)
-        //se algo nao estiver dentro do navigation controller, o hidesBarsOnTap nao faz nada
+        // Se algo não estiver dentro do navigation controller, o hidesBarsOnTap não faz nada
         navigationController?.hidesBarsOnTap = true
     }
 
     override func viewWillDisappear(_ animated: Bool) {
-        //Diga ao meu tipo de dados pai que esses métodos foram chamados
         super.viewWillDisappear(animated)
-        //se algo nao estiver dentro do navigation controller, o hidesBarsOnTap nao faz nada
+        // Se algo não estiver dentro do navigation controller, o hidesBarsOnTap não faz nada
         navigationController?.hidesBarsOnTap = false
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
